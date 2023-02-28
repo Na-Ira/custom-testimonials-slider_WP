@@ -5,6 +5,8 @@
 :white_check_mark: Slider - [SplideJs 4](https://splidejs.com/)    
 
 The plugin must be installed in the WordPress directory `/wp-content/plugins/`
+In the plugin directory, create a folder `custom-testimonials-slider` and place the plugin files in it.
+It should be like this: `/wp-content/plugins/custom-testimonials-slider/`.
 
 
 Additionally, you need to install a plugin *Advanced Custom Fields* and create the following fields:
