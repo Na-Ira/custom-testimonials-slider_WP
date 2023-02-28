@@ -8,7 +8,7 @@ The plugin must be installed in the WordPress directory `/wp-content/plugins/`.
 In the plugin directory, create a folder `custom-testimonials-slider` and place the plugin files in it.    
 It should be like this: `/wp-content/plugins/custom-testimonials-slider/`.    
 
-Additionally, you need to install a plugin *Advanced Custom Fields* and create the following fields:    
+Additionally, you need to install plugin [Advanced Custom Fields](https://www.advancedcustomfields.com/) and create the following fields:    
 
 :small_blue_diamond: `client_name` (with field type Text)    
 :small_orange_diamond: `client_position` (with field type Text)    
