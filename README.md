@@ -4,22 +4,21 @@
 :white_check_mark: Wordpress - 6.1.1   
 :white_check_mark: Slider - [SplideJs 4](https://splidejs.com/)    
 
-[^1]:The plugin must be installed in the WordPress directory `/wp-content/plugins/`.
-[^2]:In the plugin directory, create a folder `custom-testimonials-slider` and place the plugin files in it.
-[^3]:It should be like this: `/wp-content/plugins/custom-testimonials-slider/`.
+The plugin must be installed in the WordPress directory `/wp-content/plugins/`.    
+In the plugin directory, create a folder `custom-testimonials-slider` and place the plugin files in it.    
+It should be like this: `/wp-content/plugins/custom-testimonials-slider/`.    
 
-
-[^note]:Additionally, you need to install a plugin *Advanced Custom Fields* and create the following fields:
+Additionally, you need to install a plugin *Advanced Custom Fields* and create the following fields:    
 
 :small_blue_diamond: `client_name` (with field type Text)    
 :small_orange_diamond: `client_position` (with field type Text)    
 :small_blue_diamond: `text_testimonials` (with field type Text)    
 :small_orange_diamond: `link_video` (with field type Text Url)    
 
-[^note]:In the Testimonials menu of the admin panel, you need to create slides and fill out these fields.
+In the Testimonials menu of the admin panel, you need to create slides and fill out these fields.        
 
 ![Screenshort](/img/screen_slider.png)
 
-[^note]:To display a picture of a slide, you need to add a thumbnail of the post.
+To display a picture of a slide, you need to add a thumbnail of the post.    
 
 [View slider](https://nastmobile.com/web-test/slider-example/)
