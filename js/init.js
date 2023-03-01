@@ -26,7 +26,7 @@
                },
             };
             /**
-             * 3.2 if options are defined by 'data-splide' attribute: default options will we overridden
+             * if options are defined by 'data-splide' attribute: default options will we overridden
              * see documentation: https://splidejs.com/guides/options/#by-data-attribute
              **/
             const splide = new Splide( splideElement, splideDefaultOptions ); 
@@ -50,7 +50,7 @@
                   item.button.textContent = "0" + String(item.page + 1);
                });
             });
-            // 3. mount/initialize this slider
+            // mount/initialize this slider
             splide.mount(window.splide.Extensions);
          }
       }

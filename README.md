@@ -18,6 +18,33 @@ Additionally, you need to install plugin [Advanced Custom Fields](https://www.ad
 
 *According to the [slider documentation](https://splidejs.com/extensions/video/) to assign videos to slides use data attribute, that's why in ACF it is implemented via Field type URL instead of oembed.*        
 
+If you want to create multiple sliders, you need to add the `data-splide` attribute to the html code your slider.    
+For example,    
+```html
+      <div class="splide" data-splide='{"type":"loop","perPage":3, "arrows":false, "pagination":false, "heightRatio":0.25 }'>
+         <div class="splide__track">
+            <ul class="splide__list">
+            <li class="splide__slide">
+               <img src="https://lorempixel.com/400/200/food/" class="slider-img">
+            </li>
+            <li class="splide__slide">
+               <img src="https://lorempixel.com/400/200/food/2" class="slider-img">
+            </li>
+            <li class="splide__slide">
+               <img src="https://lorempixel.com/400/200/food/3" class="slider-img">
+            </li>
+            <li class="splide__slide">
+               <img src="https://lorempixel.com/400/200/food/4" class="slider-img">
+            </li>
+            <li class="splide__slide">
+               <img src="https://lorempixel.com/400/200/food/5" class="slider-img">
+            </li>
+            </ul>
+         </div>
+      </div>
+```
+See [documentation](https://splidejs.com/guides/options/#by-data-attribute)
+
 In the Testimonials menu of the admin panel, you need to create slides and fill out these fields.        
 
 ![Screenshort](/img/screen_slider.png)
