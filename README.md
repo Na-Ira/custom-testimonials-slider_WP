@@ -16,7 +16,7 @@ Additionally, you need to install plugin [Advanced Custom Fields](https://www.ad
 :small_blue_diamond: `text_testimonials` (with field type Text)    
 :small_orange_diamond: `link_video` (with field type Text Url)    
 
-*According to the [slider documentation](https://splidejs.com/extensions/video/) to assign videos to slides use data attribute, that's why in ACF it is implemented via Field type URL instead of oembed.(italic)*        
+*According to the [slider documentation](https://splidejs.com/extensions/video/) to assign videos to slides use data attribute, that's why in ACF it is implemented via Field type URL instead of oembed.*        
 
 In the Testimonials menu of the admin panel, you need to create slides and fill out these fields.        
 
