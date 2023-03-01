@@ -2,7 +2,7 @@
 
 :white_check_mark: PHP version >= 7.2    
 :white_check_mark: Wordpress - 6.1.1   
-:white_check_mark: Slider - [SplideJs 4](https://splidejs.com/)    
+:white_check_mark: Slider - [SplideJs, v4](https://splidejs.com/)    
 
 The plugin must be installed in the WordPress directory `/wp-content/plugins/`.    
 In the plugin directory, create a folder `custom-testimonials-slider` and place the plugin files in it.    
