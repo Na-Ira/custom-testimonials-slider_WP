@@ -11,10 +11,10 @@ It should be like this: `/wp-content/plugins/custom-testimonials-slider/`.
 
 Additionally, you need to install plugin [Advanced Custom Fields](https://www.advancedcustomfields.com/) and create the following fields:    
 
-:small_blue_diamond: `client_name` (with field type Text)    
-:small_orange_diamond: `client_position` (with field type Text)    
-:small_blue_diamond: `text_testimonials` (with field type Text)    
-:small_orange_diamond: `link_video` (with field type Text Url)    
+:small_blue_diamond: `client_name` (field type Text)    
+:small_orange_diamond: `client_position` (field type Text)    
+:small_blue_diamond: `text_testimonials` (field type Text)    
+:small_orange_diamond: `link_video` (field type Text Url)    
 
 *According to the [slider documentation](https://splidejs.com/extensions/video/) to assign videos to slides use data attribute, that's why in ACF it is implemented via Field type URL instead of oembed.*        
 
