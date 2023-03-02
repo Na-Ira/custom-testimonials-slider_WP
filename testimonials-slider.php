@@ -21,14 +21,14 @@
  /**
  * Shortcode plugin
  */
-add_shortcode("testimonials-slider", "slider_activation");
+add_shortcode("testimonials-slider", "testimonials_slider_activation");
 
 /**
  * Activation plugin
  */
-register_activation_hook( __FILE__, 'slider_activation' );
+register_activation_hook( __FILE__, 'testimonials_slider_activation' );
 
-function slider_activation() {
+function testimonials_slider_activation() {
 
    $args_array = array(
       'posts_per_page' => -1,
