@@ -18,7 +18,7 @@ Additionally, you need to install plugin [Advanced Custom Fields](https://www.ad
 
 *According to the [slider documentation](https://splidejs.com/extensions/video/) to assign videos to slides use data attribute, that's why in ACF it is implemented via Field type URL instead of oembed.*        
 
-If you want to create multiple sliders, you need to add the `data-splide` attribute to the html code your slider.    
+If you want to create multiple sliders, you need to add the `data-splide` attribute to your slider's html code.   
 For example,    
 ```html
       <div class="splide" data-splide='{"type":"loop","perPage":3, "arrows":false, "pagination":false, "heightRatio":0.25 }'>
