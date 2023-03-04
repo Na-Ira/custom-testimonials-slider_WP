@@ -24,4 +24,4 @@ In the Testimonials menu of the admin panel, you need to create slides and fill 
 
 To display a picture of a slide, you need to add a thumbnail of the post.    
 
-[View slider](https://nastmobile.com/web-test/slider-example/)
+[View slider](https://folio-ira.nastmobile.com/video-slider/)
