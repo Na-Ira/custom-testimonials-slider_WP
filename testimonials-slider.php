@@ -13,7 +13,6 @@
   * Initializing plugin
   */
  add_action('plugins_loaded', 'testimonials_slider_plugin');
-
  function testimonials_slider_plugin() {
 	  require_once plugin_dir_path( __FILE__ ) . 'functions.php';
  }
@@ -22,14 +21,14 @@
  * Shortcode plugin
  */
 add_shortcode("testimonials-slider", "testimonials_slider_activation");
-
 /**
  * Activation plugin
  */
 register_activation_hook( __FILE__, 'testimonials_slider_activation' );
-
 function testimonials_slider_activation() {
 
+   ob_start();
+   
    $args_array = array(
       'posts_per_page' => -1,
       'post_type'      => 'tst_slider',
@@ -138,6 +137,8 @@ function testimonials_slider_activation() {
 </section>
 
 <?php
+
+return ob_get_clean();
 }
 
 ?>
